@@ -16,7 +16,10 @@ body {
       padding-bottom: 25px;
       display: flex;
       flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
     }
+
 .main {
        display: flex;
        justify-content: space-between;
@@ -84,6 +87,15 @@ body {
       font-style: arial;
 }
 
+.a1 {
+      text-decoration: none;
+      color: #FFFFFF;
+}
+
+.a {
+      color: #FFFFFF; 
+}
+
 .left_buttom_block {
       margin-top: 304px;
 }
@@ -145,8 +157,23 @@ body {
 .main_middle {
       width: 757px; 
       height: 325px; 
-      margin-top: 19px;
+      margin-top: 15px;
       margin-bottom: 18px;
+}
+
+.main_img img{
+      width: 133px;
+      height: 153px;
+}
+
+.image {
+      margin-right: 19px; 
+      margin-bottom: 19px;
+}
+
+.imagels {
+      margin-right: 0px; 
+      margin-bottom: 19px;
 }
 
 .footer {
@@ -211,4 +238,8 @@ body {
       width: 308px;
       height: 79px;
       
+}
+
+.skip {
+      color: #dcdcdc;
 }
