@@ -1,0 +1,214 @@
+* {
+      margin: 0;
+      
+      box-sizing: border-box;
+}
+
+body {
+      width: 1100px;
+      height: 1200px;
+      font-family: arial;
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: 400;
+      padding-left: 70px;
+      padding-top: 24px;
+      padding-bottom: 25px;
+      display: flex;
+      flex-direction: column;
+    }
+.main {
+       display: flex;
+       justify-content: space-between;
+       padding-top: 22px;
+       padding-bottom: 25px;
+       height: 820px; 
+  }
+
+.wrapper {
+      display: flex;
+      flex-direction: column;
+      max-width: 980px;
+}
+
+.header {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 12px;
+    }
+
+.more ul {
+      background-color: #777777;
+      width: 513px;
+      height: 108px;
+      list-style-type: none;
+      align-items: flex-end;
+      display: flex;
+      flex-direction: column;
+      color: #FFFFFF;
+      padding-right: 22px;
+      padding-top: 25px;
+      font-size: 13px;
+    }
+
+.logo {
+      color: #777777;
+}
+
+.contact {
+      background-color: #777777;
+      width: 279px;
+      height: 108px;
+}
+
+.left_block {
+      display:flex;
+      flex-direction: column;
+      
+      justify-content: space-between;
+}
+.long_block ul {
+      background-color: #777777;
+      width: 184px;
+      height: 335px;
+      list-style-type: none;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      color: #FFFFFF;
+      padding-left: 13px;
+      padding-top: 19px;
+      padding-bottom: 17px;
+      padding-right: 32px;
+      font-size: 14px;
+      font-style: arial;
+}
+
+.left_buttom_block {
+      margin-top: 304px;
+}
+
+.main_center {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 757px;
+      height: 773px;
+}
+
+.main_top {
+      width: 757px;
+      height: 210px;
+      background-color: #dcdcdc;
+      padding-left: 21px;
+      padding-top: 22px;
+      padding-bottom: 20px;
+      padding-right: 70px;
+      color: #777777;
+}
+
+.main_top ul {
+      list-style-type: square;
+}
+
+.main_buttom {
+      display: flex;
+      justify-content: space-between;
+      width: 757px;
+      height: 200px;
+}
+
+.first_menu_block {
+      background-color: #dcdcdc;
+      width: 370px;
+      height: 200px;
+      color: #777777;
+      padding-top: 23px;
+      padding-left: 18px;
+      padding-right: 24px;
+      padding-bottom: 33px;
+      hyphens: manual;
+      font-size: 14px;
+}
+
+.second_menu_block {
+      background-color: #dcdcdc;
+      width: 370px;
+      height: 200px;
+      color: #777777;
+      padding-top: 23px;
+      padding-left: 18px;
+      padding-right: 24px;
+      hyphens: manual;
+}
+
+.main_middle {
+      width: 757px; 
+      height: 325px; 
+      margin-top: 19px;
+      margin-bottom: 18px;
+}
+
+.footer {
+      min-width: 622px;
+      margin-top: 24px;
+      font-size: 13px;
+}
+
+.footer_blocks {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      min-width: 622px;
+}
+
+.first_footer_block ul {
+      width: 297px;
+      height: 180px;
+      background-color: #777777;
+      color: #FFFFFF;
+      padding-left: 25px;
+      padding-top: 14px;
+      
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+}
+
+.second_footer_block {
+      display: flex;
+      margin-left: 28px;
+      width: 297px;
+      height: 180px;
+      background-color: #777777;
+      padding-top: 14px;
+}
+
+.second_footer_block ul {
+      color: #FFFFFF;
+      list-style-type: square;
+      
+}
+
+.footer_right_blocks {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-left: 28px;
+}
+
+.first_right_block {
+      display: flex;
+      background-color: #777777;
+      width: 308px;
+      height: 79px;
+      justify-content: end;
+}
+
+.second_right_block {
+      display: flex;
+      width: 308px;
+      height: 79px;
+      
+}
